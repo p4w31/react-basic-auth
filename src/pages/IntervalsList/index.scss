@@ -1,0 +1,28 @@
+.todo-list-wrapper {
+    .item-row-wrapper {
+        clear: both;
+        height: 45px;
+        border: 1px solid lightgray;
+
+        button {
+            float: left;
+            margin-top: 10px;
+        }
+    
+        ul {
+            list-style: none; 
+            padding: 0;
+        }
+
+        .row-content {
+            display: inline-block; 
+            margin-top: 10px;
+        }
+
+        .remove-btn {
+            font-size: 20px;
+            float: right;
+            margin-top: 7px; 
+        }
+    } 
+}
